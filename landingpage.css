@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header
+{
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+nav ul
+{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li
+{
+    margin-right: 20px;
+}
+nav ul li a 
+{
+    color: #fff;
+    text-decoration: none; 
+}
+nav ul li a:hover
+{
+    text-decoration:underline;
+}
+nav ul li #login
+{
+    margin-left:900px;
+}
+.firstdiv
+{
+    display:flex;
+    height:666px;
+}
+.left
+{
+    width:777px;
+    height:666px;
+}
+.left img
+{
+    position: relative;
+    top:200px;
+    left:100px;
+}
+.right
+{
+    width:100vw;
+    height:666px;
+}
+.right :first-child
+{
+    margin-top:140px;
+} 
+.right #firstchild
+{
+    margin-top:10px;
+}
+.why
+{
+    height:250px;
+    text-align:center;
+    font-size:22px;
+}
+.start
+{
+    height:100px;
+    font-size:22px;
+    text-align:center;
+}
+.inputs
+{
+    height:100px;
+}
+.inputs input[ type="text"]
+{
+    margin-left:450px;
+    height:50px;
+    width:250px;
+    font-size:22px;
+}
+.inputs input[type="button"]
+{
+    margin-left:20px;
+    height:50px;
+    width:100px;
+    font-size:18px;
+}
+footer
+{
+    height:100px;
+    background-color:rgba(0, 0, 0, 0.808);
+    color:white;
+    text-align:center;
+}
+.copy p
+{
+    padding-top:50px;
+}
